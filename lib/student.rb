@@ -8,4 +8,8 @@ class Student < User
   def learn
     @knowledge << KNOWLEDGE.sample
   end
+  
+  def knowledge
+    @knowledge
+  end
 end
